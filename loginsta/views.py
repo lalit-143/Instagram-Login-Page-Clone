@@ -1,7 +1,9 @@
 from django.shortcuts import render, redirect, HttpResponse
 from loginsta.models import *
+from django.views.decorators.csrf import csrf_exempt
 # Create your views here.
 
+@csrf_exempt
 def signin(request):
 	if request.method == 'POST':
 		uname = request.POST['username']
