@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-n*%z&#6!t75(5d83@cofoityd6cenw-)h133j4imqm9s4x_7s0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'instagarm-login.herokuapp.com']
 
 
 # Application definition
