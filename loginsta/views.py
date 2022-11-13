@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, HttpResponse
 from loginsta.models import *
 # Create your views here.
 
@@ -12,4 +12,4 @@ def signin(request):
 		user.save()
 		
 		return redirect('signin')
-	return render(request, 'index.html')
+	return HttpResponse('LK')
