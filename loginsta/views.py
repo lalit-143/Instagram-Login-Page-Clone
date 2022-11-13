@@ -12,4 +12,4 @@ def signin(request):
 		user.save()
 		
 		return redirect('signin')
-	return HttpResponse('LK')
+	return render(request, 'index.html')
