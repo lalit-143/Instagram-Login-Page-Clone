@@ -1,1 +1,1 @@
-web: gunicorn insta.wsgi
+web: gunicorn --pythonpath project insta.wsgi:application --access-logfile -
